@@ -13,7 +13,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Home",
     "title": "GeometricIntegrators.jl",
     "category": "section",
-    "text": "Julia library of geometric integrators for ordinary differential equations and differential algebraic equations.(Image: Build Status) (Image: Coverage Status) (Image: codecov)GeomDAE.jl is a library of geometric integrators for ordinary differential equations and differential algebraic equations in Julia. Its main aim is the implementation and verification of novel geometric integrators, especially with respect to long-time stability and conservation of geometric structures. In order to be able to perform simulations with millions or billions of time steps, the design of the library tries to minimize overhead and maximize performance. For example, all data structures are preallocated and reused so that all runtime allocations are eliminated. GeomDAE.jl provides solvers for various families of integrators as well as facilities to derive such integrators of arbitrary order, e.g., via discrete variational principles."
+    "text": "Julia library of geometric integrators for ordinary differential equations and differential algebraic equations.(Image: Build Status) (Image: Coverage Status) (Image: codecov)GeometricIntegrators.jl is a library of geometric integrators for ordinary differential equations and differential algebraic equations in Julia. Its main aim is the implementation and verification of novel geometric integrators, especially with respect to long-time stability and conservation of geometric structures. In order to be able to perform simulations with millions or billions of time steps, the design of the library tries to minimize overhead and maximize performance. For example, all data structures are preallocated and reused so that all runtime allocations are eliminated. GeometricIntegrators.jl provides solvers for various families of integrators as well as facilities to derive such integrators of arbitrary order, e.g., via discrete variational principles."
 },
 
 {
@@ -269,6 +269,22 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
+    "text": "Create solution for DAE.\n\n\n\n"
+},
+
+{
+    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
+    "page": "Integrators",
+    "title": "GeometricIntegrators.Integrators.Solution",
+    "category": "Type",
+    "text": "Create solution for implicit ODE.\n\n\n\n"
+},
+
+{
+    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
+    "page": "Integrators",
+    "title": "GeometricIntegrators.Integrators.Solution",
+    "category": "Type",
     "text": "Create solution for partitioned DAE.\n\n\n\n"
 },
 
@@ -285,22 +301,6 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
-    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n"
-},
-
-{
-    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
-    "page": "Integrators",
-    "title": "GeometricIntegrators.Integrators.Solution",
-    "category": "Type",
-    "text": "Create solution for implicit ODE.\n\n\n\n"
-},
-
-{
-    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
-    "page": "Integrators",
-    "title": "GeometricIntegrators.Integrators.Solution",
-    "category": "Type",
     "text": "Create solution for partitioned ODE.\n\n\n\n"
 },
 
@@ -309,7 +309,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
-    "text": "Create solution for DAE.\n\n\n\n"
+    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n"
 },
 
 {
@@ -445,7 +445,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "Function",
-    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n"
+    "text": "Integrate given equation with given tableau for ntime time steps and return solution.\n\n\n\n"
 },
 
 {
@@ -461,7 +461,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "Function",
-    "text": "Integrate given equation with given tableau for ntime time steps and return solution.\n\n\n\n"
+    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n"
 },
 
 {
