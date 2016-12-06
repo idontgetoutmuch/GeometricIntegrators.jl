@@ -269,7 +269,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
-    "text": "Create solution for DAE.\n\n\n\n"
+    "text": "Create solution for partitioned ODE.\n\n\n\n"
 },
 
 {
@@ -277,7 +277,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
-    "text": "Create solution for implicit ODE.\n\n\n\n"
+    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n"
+},
+
+{
+    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
+    "page": "Integrators",
+    "title": "GeometricIntegrators.Integrators.Solution",
+    "category": "Type",
+    "text": "Create solution for DAE.\n\n\n\n"
 },
 
 {
@@ -301,15 +309,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.Solution",
     "category": "Type",
-    "text": "Create solution for partitioned ODE.\n\n\n\n"
-},
-
-{
-    "location": "modules/integrators.html#GeometricIntegrators.Integrators.Solution",
-    "page": "Integrators",
-    "title": "GeometricIntegrators.Integrators.Solution",
-    "category": "Type",
-    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n"
+    "text": "Create solution for implicit ODE.\n\n\n\n"
 },
 
 {
@@ -445,14 +445,6 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "Function",
-    "text": "Integrate given equation with given tableau for ntime time steps and return solution.\n\n\n\n"
-},
-
-{
-    "location": "modules/integrators.html#GeometricIntegrators.Integrators.integrate",
-    "page": "Integrators",
-    "title": "GeometricIntegrators.Integrators.integrate",
-    "category": "Function",
     "text": "Integrate ODE specified by vector field and initial condition with given tableau for ntime time steps and return solution.\n\n\n\n"
 },
 
@@ -462,6 +454,14 @@ var documenterSearchIndex = {"docs": [
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "Function",
     "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n"
+},
+
+{
+    "location": "modules/integrators.html#GeometricIntegrators.Integrators.integrate",
+    "page": "Integrators",
+    "title": "GeometricIntegrators.Integrators.integrate",
+    "category": "Function",
+    "text": "Integrate given equation with given tableau for ntime time steps and return solution.\n\n\n\n"
 },
 
 {
